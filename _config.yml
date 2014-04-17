@@ -30,14 +30,14 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
-#      - name: "tags"
-#        field:
-#          element: "multiselect"
-#          label: "Add Tags"
-#          placeholder: "Choose Tags"
-#          options:
-#            - name: "Apples"
-#              value: "apples"
-#            - name: "Bananas"
-#              value: "bananas"
+          value: "post"
+     - name: "tags"
+       field:
+         element: "multiselect"
+         label: "Add Tags"
+         placeholder: "Choose Tags"
+         options:
+           - name: "Apples"
+             value: "apples"
+           - name: "Bananas"
+             value: "bananas"
