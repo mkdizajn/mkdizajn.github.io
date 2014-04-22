@@ -14,11 +14,9 @@ url:              http://lanyon.getpoole.com
 author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
-
-paginate:         5
+paginate:         2
 
 # Custom vars
 version:          1.0.0
-
 github:
-  repo:           https://github.com/poole/lanyon
+repo:           https://github.com/poole/lanyon
