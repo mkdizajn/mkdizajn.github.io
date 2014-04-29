@@ -6,17 +6,17 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            MK test
-tagline:          'MK blog'
+title:            "krex#title"
+tagline:          'mk :: blog'
 description:      '<a href="http://mk-dizajn.com" target="_blank"><img src="/public/logo.png" style="width:99%;"></a>'
-url:              http://lanyon.getpoole.com
+url:              http://mk-dizajn.com
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-paginate:         2
+  name:           'kreso pendic'
+  url:            https://twitter.com/mkdizajn
+paginate:         5
 
 # Custom vars
 version:          1.0.0
 github:
-repo:           https://github.com/poole/lanyon
+repo:           https://github.com/mkdizajn/mkdizajn.github.io
