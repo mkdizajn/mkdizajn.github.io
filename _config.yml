@@ -28,29 +28,3 @@ prose:
         field:
           element: "hidden"
           value: "post"
-
-        - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Izbor tagova"
-          placeholder: "Tagovi .."
-          options:
-            - name: "jekyll"
-              value: "jekyll"
-            - name: "cms"
-              value: "cms"
-            - name: "jquery"
-              value: "jquery"
-
-        - name: "categories"
-          field:
-            element: "select"
-            label: "Izbor kategorije"
-            placeholder: "Kategorije.."
-            options:
-              - name: "wordpress"
-                value: "wordpress"
-              - name: "magento"
-                value: "magento"
-              - name: "php"
-                value: "php"
