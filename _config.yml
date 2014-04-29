@@ -6,7 +6,7 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            "MK // blog"
+title:            "MK || blog"
 tagline:          ''
 description:      '<a href="http://mk-dizajn.com" target="_blank"><img src="/public/logo.png" style="width:99%;"></a>'
 url:              http://mk-dizajn.com
