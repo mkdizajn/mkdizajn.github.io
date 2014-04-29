@@ -12,7 +12,7 @@ description:      '<a href="http://mk-dizajn.com" target="_blank"><img src="/pub
 url:              http://mk-dizajn.com
 
 author:
-  name:           'kreso pendic'
+  name:           'kresimir pendic'
   url:            https://twitter.com/mkdizajn
 paginate:         5
 
@@ -20,3 +20,37 @@ paginate:         5
 version:          1.0.0
 github:
 repo:           https://github.com/mkdizajn/mkdizajn.github.io
+
+prose:
+  metadata:
+    _posts:
+        - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+
+        - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Izbor tagova"
+          placeholder: "Tagovi .."
+          options:
+            - name: "jekyll"
+              value: "jekyll"
+            - name: "cms"
+              value: "cms"
+            - name: "jquery"
+              value: "jquery"
+
+        - name: "categories"
+          field:
+            element: "select"
+            label: "Izbor kategorije"
+            placeholder: "Kategorije.."
+            options:
+              - name: "wordpress"
+                value: "wordpress"
+              - name: "magento"
+                value: "magento"
+              - name: "php"
+                value: "php"
