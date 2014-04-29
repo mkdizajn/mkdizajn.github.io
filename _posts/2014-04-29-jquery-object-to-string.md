@@ -4,6 +4,7 @@ tags:
   - first
   - second
   - mirko
+layout: post
 ---
 
 ## How to jQuery send to string
