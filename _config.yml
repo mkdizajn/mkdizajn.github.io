@@ -8,7 +8,8 @@ permalink:        pretty
 # Setup
 title:            "MK :: blog"
 tagline:          ""
-description:      "<a href='http://mk-dizajn.com' target='_blank'><img src='/public/logo.png' style='width:99%;'></a>"
+description:      |"<a href='http://mk-dizajn.com' target='_blank'>
+                  <img src='/public/logo.png' style='width:99%;'></a>"
 url:              "http://mk-dizajn.com"
 
 author:
@@ -16,9 +17,6 @@ author:
   url:            "https://twitter.com/mkdizajn"
 paginate:         5
 
-# Custom vars
 version:          "1.0.0"
 github:
 repo:           "https://github.com/mkdizajn/mkdizajn.github.io"
-
-
