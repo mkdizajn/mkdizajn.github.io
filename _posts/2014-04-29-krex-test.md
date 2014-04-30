@@ -1,5 +1,10 @@
 ---
-published: false
+published: true
+tags: 
+  - "2"
+  - "3"
+  - "5"
+layout: post
 ---
 
 ## A New Post
