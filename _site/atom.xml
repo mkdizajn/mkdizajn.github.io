@@ -1,22 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>MK test</title>
- <link href="http://lanyon.getpoole.com/atom.xml" rel="self"/>
- <link href="http://lanyon.getpoole.com/"/>
- <updated>2014-04-23T02:00:04+02:00</updated>
- <id>http://lanyon.getpoole.com</id>
+ <title>MK :: blog</title>
+ <link href="http://mk-dizajn.com/atom.xml" rel="self"/>
+ <link href="http://mk-dizajn.com/"/>
+ <updated>2014-04-30T21:43:44+02:00</updated>
+ <id>http://mk-dizajn.com</id>
  <author>
-   <name>Mark Otto</name>
+   <name>kresimir pendic</name>
    <email></email>
  </author>
 
  
  <entry>
+   <title>Link To Some Love</title>
+   <link href="http://mk-dizajn.com/2014/04/30/link-to-some-love/"/>
+   <updated>2014-04-30T00:00:00+02:00</updated>
+   <id>http://mk-dizajn.com/2014/04/30/link-to-some-love</id>
+   <content type="html">&lt;h2&gt;A New Post&lt;/h2&gt;
+
+&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Krex Test</title>
+   <link href="http://mk-dizajn.com/2014/04/29/krex-test/"/>
+   <updated>2014-04-29T00:00:00+02:00</updated>
+   <id>http://mk-dizajn.com/2014/04/29/krex-test</id>
+   <content type="html">&lt;h2&gt;A New Post&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;We loved with a love that was more than love&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Jquery Object To String</title>
+   <link href="http://mk-dizajn.com/2014/04/29/jquery-object-to-string/"/>
+   <updated>2014-04-29T00:00:00+02:00</updated>
+   <id>http://mk-dizajn.com/2014/04/29/jquery-object-to-string</id>
+   <content type="html">&lt;h2&gt;How to jQuery send to string&lt;/h2&gt;
+
+&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
    <title>Introducing Lanyon</title>
-   <link href="http://lanyon.getpoole.com/2014/01/02/introducing-lanyon/"/>
+   <link href="http://mk-dizajn.com/2014/01/02/introducing-lanyon/"/>
    <updated>2014-01-02T00:00:00+01:00</updated>
-   <id>http://lanyon.getpoole.com/2014/01/02/introducing-lanyon</id>
+   <id>http://mk-dizajn.com/2014/01/02/introducing-lanyon</id>
    <content type="html">&lt;p&gt;Lanyon is an unassuming &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that places content first by tucking away navigation in a hidden drawer. It&amp;#39;s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
 &lt;h3&gt;Built on Poole&lt;/h3&gt;
@@ -59,9 +96,9 @@
  
  <entry>
    <title>Example content</title>
-   <link href="http://lanyon.getpoole.com/2014/01/01/example-content/"/>
+   <link href="http://mk-dizajn.com/2014/01/01/example-content/"/>
    <updated>2014-01-01T00:00:00+01:00</updated>
-   <id>http://lanyon.getpoole.com/2014/01/01/example-content</id>
+   <id>http://mk-dizajn.com/2014/01/01/example-content</id>
    <content type="html">&lt;div class=&quot;message&quot;&gt;
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 &lt;/div&gt;
@@ -190,9 +227,9 @@
  
  <entry>
    <title>What's Jekyll?</title>
-   <link href="http://lanyon.getpoole.com/2013/12/31/whats-jekyll/"/>
+   <link href="http://mk-dizajn.com/2013/12/31/whats-jekyll/"/>
    <updated>2013-12-31T00:00:00+01:00</updated>
-   <id>http://lanyon.getpoole.com/2013/12/31/whats-jekyll</id>
+   <id>http://mk-dizajn.com/2013/12/31/whats-jekyll</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project&amp;#39;s readme&lt;/a&gt;:&lt;/p&gt;
 
 &lt;blockquote&gt;
