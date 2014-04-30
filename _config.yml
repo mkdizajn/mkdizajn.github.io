@@ -13,7 +13,7 @@ version:          '1.0.0'
 github:
 repo:           'https://github.com/mkdizajn/mkdizajn.github.io'
 prose:
-  rooturl: '_posts'
+#  rooturl: '_posts'
   metadata:
     _posts:
         - name: 'layout'
