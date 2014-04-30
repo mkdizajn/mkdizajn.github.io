@@ -1,27 +1,28 @@
+prose:
+  rooturl: '_posts'
+  metadata:
+    _posts:
+        - name: 'layout'
+          field:
+            element: 'hidden'
+            value: 'post'
+        - name: 'published'
+          field:
+            element: 'hidden'
+            value: true
+
 markdown:         redcarpet
 pygments:         true
 permalink:        pretty
-title:            "MK :: blog"
-tagline:          ""
-description:      |"<a href='http://mk-dizajn.com' target='_blank'>
-                  <img src='/public/logo.png' style='width:99%;'></a>"
-url:              "http://mk-dizajn.com"
+title:            'MK :: blog'
+tagline:          ''
+description:      |'<a href="http://mk-dizajn.com" target="_blank">
+                  <img src="/public/logo.png" style="width:99%;"></a>'
+url:              'http://mk-dizajn.com'
 author:
-  name:           "kresimir pendic"
-  url:            "https://twitter.com/mkdizajn"
+  name:           'kresimir pendic'
+  url:            'https://twitter.com/mkdizajn'
 paginate:         5
-version:          "1.0.0"
+version:          '1.0.0'
 github:
-repo:           "https://github.com/mkdizajn/mkdizajn.github.io"
-prose:
-  rooturl: "_posts"
-  metadata:
-    _posts:
-        - name: "layout"
-          field:
-            element: "hidden"
-            value: "post"
-        - name: "published"
-          field:
-            element: "hidden"
-            value: true
+repo:           'https://github.com/mkdizajn/mkdizajn.github.io'
