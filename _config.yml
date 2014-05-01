@@ -3,12 +3,12 @@ pygments:         true
 permalink:        pretty
 title:            'MK :: blog'
 tagline:          ''
-description:      '<a href="http://mk-dizajn.com" target="_blank"><img src="/public/logo.png" style="width:99%;"></a>'
+description:      '<a href="//mk-dizajn.com"><img class="brand" src="/public/mk.png" /></a>'
 url:              'http://mk-dizajn.com'
 author:
   name:           'kresimir pendic'
   url:            'https://twitter.com/mkdizajn'
-paginate:         5
+paginate:         1
 version:          '1.0.0'
 github:
 repo:           'https://github.com/mkdizajn/mkdizajn.github.io'

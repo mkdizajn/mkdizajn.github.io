@@ -4,50 +4,13 @@
  <title>MK :: blog</title>
  <link href="http://mk-dizajn.com/atom.xml" rel="self"/>
  <link href="http://mk-dizajn.com/"/>
- <updated>2014-04-30T23:21:03+02:00</updated>
+ <updated>2014-05-01T02:08:51+02:00</updated>
  <id>http://mk-dizajn.com</id>
  <author>
    <name>kresimir pendic</name>
    <email></email>
  </author>
 
- 
- <entry>
-   <title>Link To Some Love</title>
-   <link href="http://mk-dizajn.com/2014/04/30/link-to-some-love/"/>
-   <updated>2014-04-30T00:00:00+02:00</updated>
-   <id>http://mk-dizajn.com/2014/04/30/link-to-some-love</id>
-   <content type="html">&lt;h2&gt;A New Post&lt;/h2&gt;
-
-&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Krex Test</title>
-   <link href="http://mk-dizajn.com/2014/04/29/krex-test/"/>
-   <updated>2014-04-29T00:00:00+02:00</updated>
-   <id>http://mk-dizajn.com/2014/04/29/krex-test</id>
-   <content type="html">&lt;h2&gt;A New Post&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;We loved with a love that was more than love&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Jquery Object To String</title>
-   <link href="http://mk-dizajn.com/2014/04/29/jquery-object-to-string/"/>
-   <updated>2014-04-29T00:00:00+02:00</updated>
-   <id>http://mk-dizajn.com/2014/04/29/jquery-object-to-string</id>
-   <content type="html">&lt;h2&gt;How to jQuery send to string&lt;/h2&gt;
-
-&lt;p&gt;Enter text in &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown&lt;/a&gt;. Use the toolbar above, or click the &lt;strong&gt;?&lt;/strong&gt; button for formatting help.&lt;/p&gt;
-</content>
- </entry>
  
  <entry>
    <title>Introducing Lanyon</title>
