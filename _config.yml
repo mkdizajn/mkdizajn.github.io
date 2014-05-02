@@ -24,3 +24,8 @@ _posts:
     field:
     element: 'hidden'
     value: true
+_posts/static:
+  - name: 'layout'
+    field:
+    element: 'hidden'
+    value: 'page'
