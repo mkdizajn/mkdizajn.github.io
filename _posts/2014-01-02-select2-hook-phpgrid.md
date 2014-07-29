@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Select2 ajax hook to trigger cascade on phpgrid form
+title: Select2 hook to trigger phpgrid
 published: true
 tags: 
   - first
@@ -8,7 +8,11 @@ tags:
   - mirko
 ---
 
-## Select2 hook on phpGrid
+<div class="message">
+  Hi! This is an example code post that shows several types of great select2 content via ajax search and redirecting result from outside (this) scope :)
+</div>
+
+### Select2 hook on phpGrid
 
 {% highlight js %}
 $('.FormElement.select2').select2({
