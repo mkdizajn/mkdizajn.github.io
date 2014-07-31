@@ -1,9 +1,9 @@
 markdown: "redcarpet"
-pygments:	"true"
+pygments:	true
 permalink: "pretty"
 title:      "• mk_blog •"
-tagline:    ""
-description:"<a href=mk-dizajn.com><img class=brand src=/public/mk.png /></a>"
+tagline:    " "
+description: "<a href=mk-dizajn.com><img class=brand src=/public/mk.png /></a>"
 url: "http://mk-dizajn.com"
 siteurl: "http://blog.mk-dizajn.com"
 author:
