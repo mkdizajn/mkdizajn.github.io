@@ -1,32 +1,38 @@
-markdown:         redcarpet
-pygments:	      true
-permalink:        pretty
-title:            '• mk_blog •'
-tagline:          ''
-description:      '<a href="//mk-dizajn.com"><img class="brand" src="/public/mk.png" /></a>'
-url:              'http://mk-dizajn.com'
+markdown: "redcarpet"
+pygments:	"true"
+permalink: "pretty"
+title:      "• mk_blog •"
+tagline:    ""
+description:"<a href=mk-dizajn.com><img class=brand src=/public/mk.png /></a>"
+url: "http://mk-dizajn.com"
+siteurl: "http://blog.mk-dizajn.com"
 author:
-  name:           'kresimir pendic'
-  url:            'https://twitter.com/mkdizajn'
-paginate:         4
-version:          '1.0.1'
+  name: "kresimir pendic"
+  url: "https://twitter.com/mkdizajn"
+paginate: 4
+version: "1.0.1"
 github:
-  repo:           'https://github.com/mkdizajn/mkdizajn.github.io'
+  repo: "https://github.com/mkdizajn/mkdizajn.github.io"
 prose:
-  media: 'media'
+  media: "media"
   metadata:
-    rooturl: '_posts'
+    rooturl: "_posts"
     _posts:
-      - name: 'layout'
+      - name: "layout"
         field:
-          element: 'hidden'
-          value: 'post'
-      - name: 'published'
+          element: "hidden"
+          value: "post"
+      - name: "published"
         field:
-          element: 'hidden'
-          value: true
-    _posts/static:
-      - name: 'layout'
+          element: "hidden"
+          value: "true"
+      - name: "tags"
         field:
-          element: 'hidden'
-          value: 'page'
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options: 
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
