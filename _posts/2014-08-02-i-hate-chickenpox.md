@@ -5,7 +5,8 @@ title: "I hate chickenpox :|"
 ---
 
 <div class=message>
-I HATE CHICKENPOX!
+My older daughter Paula got chickenpox the other day,, and that is a nasty illness.. 
 </div>
 
 ![eye.jpg](/media/eye.jpg)
+
