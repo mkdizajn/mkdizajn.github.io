@@ -1,7 +1,0 @@
-[alias]
-    lg = log --graph --decorate --pretty=oneline
-[alias]
-    ac = '! git commit -a -m'
-[alias]
-    acp = '! git commit -a -m "commit" && git push'
-
