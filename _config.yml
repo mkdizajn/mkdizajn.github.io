@@ -1,15 +1,15 @@
 markdown:         redcarpet
-pygments:         true
+highlighter:      true
 permalink:        pretty
-title:            '❝ ⓜⓚ _blog ❞'
+title:            '• mk_blog •'
 tagline:          ''
 description:      '<a href="//mk-dizajn.com"><img class="brand" src="/public/mk.png" /></a>'
 url:              'http://mk-dizajn.com'
 author:
   name:           'kresimir pendic'
   url:            'https://twitter.com/mkdizajn'
-paginate:         1
-version:          '1.0.0'
+paginate:         5
+version:          '1.0.1'
 github:
 repo:           'https://github.com/mkdizajn/mkdizajn.github.io'
 prose:
