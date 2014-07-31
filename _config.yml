@@ -8,10 +8,10 @@ url:              'http://mk-dizajn.com'
 author:
   name:           'kresimir pendic'
   url:            'https://twitter.com/mkdizajn'
-paginate:         5
+paginate:         4
 version:          '1.0.1'
 github:
-repo:           'https://github.com/mkdizajn/mkdizajn.github.io'
+  repo:           'https://github.com/mkdizajn/mkdizajn.github.io'
 prose:
   media: 'media'
   metadata:
