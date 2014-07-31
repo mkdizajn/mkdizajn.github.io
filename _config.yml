@@ -1,5 +1,5 @@
 markdown:         redcarpet
-pygment:	      true
+pygments:	      true
 permalink:        pretty
 title:            '• mk_blog •'
 tagline:          ''
