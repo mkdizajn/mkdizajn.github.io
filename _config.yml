@@ -14,7 +14,7 @@ github:
   repo: 'https://github.com/mkdizajn/mkdizajn.github.io'
 prose:
   media: 'media'
-  rooturl: '_posts'
+  #rooturl: '_posts'
   siteurl: 'http://blog.mk-dizajn.com/'
   metadata:
     _posts:
@@ -36,4 +36,4 @@ prose:
           label: 'Add Tags'
           placeholder: 'Choose Tags'
           alterable: true
-          options: 'http://blog.mk-dizajn.com/public/my-cats.jsonp'
+          options: prose.siteurl + '/public/my-cats.jsonp'
