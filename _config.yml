@@ -30,6 +30,18 @@ prose:
         field:
           element: 'text'
           value: 'My new title'
+      - name: 'excerpt'
+        field:
+          element: 'textarea'
+          label: 'excerpt'
+          placeholder: 'enter your excerpt text. sean before post..'
+          value: 'My new teaser text'
+      - name: 'backgroundpic'
+        field:
+          element: 'text'
+          label: 'insert path to uploaded image'
+          placeholder: 'url path from public ..'
+          value: 'http://blog.mk-dizajn.com/public/ ..'
       - name: 'tags'
         field:
           element: 'multiselect'
