@@ -36,4 +36,4 @@ prose:
           label: 'Add Tags'
           placeholder: 'Choose Tags'
           alterable: true
-          options: '/public/my-cats.jsonp'
+          options: prose.siteurl + '/public/my-cats.jsonp'
