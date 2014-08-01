@@ -36,8 +36,4 @@ prose:
           label: 'Add Tags'
           placeholder: 'Choose Tags'
           alterable: true
-          options: 
-            - name: 'Apples'
-              value: 'apples'
-            - name: 'Bananas'
-              value: 'bananas'
+          options: 'http://blog.mk-dizajn.com/public/my-cats.jsonp'
