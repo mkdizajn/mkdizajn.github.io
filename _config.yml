@@ -36,4 +36,4 @@ prose:
           label: 'Add Tags'
           placeholder: 'Choose Tags'
           alterable: true
-          options: 'http://blog.mk-dizajn.com/public/my-cats.jsonp'
+          options: '/public/my-cats.jsonp'
