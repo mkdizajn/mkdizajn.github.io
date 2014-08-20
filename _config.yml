@@ -3,7 +3,7 @@ pygments: true
 permalink: 'pretty'
 title: '• mk_blog •'
 tagline:
-description: '<a href=mk-dizajn.com><img class=brand src=/public/mk.png /></a>'
+description: '<a href=/><img class=brand src=/public/mk.png /></a>'
 url: 'http://mk-dizajn.com'
 author:
   name: 'kresimir pendic'
