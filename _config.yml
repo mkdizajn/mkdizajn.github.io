@@ -20,8 +20,12 @@ prose:
     _posts:
       - name: 'layout'
         field:
-          element: 'hidden'
-          value: 'post'
+          element: 'select'
+          options: 
+          	- name: 'post'
+              value: 'post'
+            - name: 'page'
+              value: 'page'
       - name: 'published'
         field:
           element: 'hidden'
