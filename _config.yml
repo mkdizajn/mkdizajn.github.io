@@ -23,7 +23,7 @@ prose:
         field:
           element: 'select'
           options: 
-          	- name: 'post'
+            - name: 'post'
               value: 'post'
             - name: 'page'
               value: 'page'
