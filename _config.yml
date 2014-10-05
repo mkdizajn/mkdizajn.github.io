@@ -23,10 +23,8 @@ prose:
         field:
           element: 'select'
           options: 
-            - name: 'post'
-              value: 'post'
-            - name: 'page'
-              value: 'page'
+            - name: ['post', 'page']
+              value: ['post', 'page']
       - name: 'published'
         field:
           element: 'hidden'
