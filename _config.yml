@@ -5,6 +5,7 @@ title: '• mk_blog •'
 tagline:
 description: '<a href=/><img class=brand src=/public/mk.png /></a>'
 url: '/'
+baseurl: 'http://mkdizajn.github.io'
 author:
   name: 'kresimir pendic'
   url: 'https://twitter.com/mkdizajn'
@@ -17,7 +18,7 @@ prose:
   #rooturl: '_posts'
   siteurl: 'http://mkdizajn.github.io/'
   metadata:
-  	'/':
+  	baseurl:
       - name: 'layout'
         field:
           element: 'select'
