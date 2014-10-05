@@ -17,7 +17,7 @@ prose:
   #rooturl: '_posts'
   siteurl: 'http://mkdizajn.github.io/'
   metadata:
-  	/:
+  	.:
       - name: 'layout'
         field:
           element: 'select'
