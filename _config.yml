@@ -17,39 +17,38 @@ prose:
   #rooturl: '_posts'
   siteurl: 'http://mkdizajn.github.io/'
   metadata:
-    _posts:
-      - name: 'layout'
-        field:
-          element: 'select'
-          options: 
-          	- name: 'post'
-              value: 'post'
-            - name: 'page'
-              value: 'page'
-      - name: 'published'
-        field:
-          element: 'hidden'
-          value: 'true'
-      - name: 'title'
-        field:
-          element: 'text'
-          value: 'My new title'
-      - name: 'excerpt'
-        field:
-          element: 'textarea'
-          label: 'excerpt'
-          placeholder: 'enter your excerpt text. sean before post..'
-          value: 'My new teaser text'
-      - name: 'backgroundpic'
-        field:
-          element: 'text'
-          label: 'insert path to uploaded image'
-          placeholder: 'url path from public ..'
-          value: 'http://mkdizajn.github.io/public/ ..'
-      - name: 'tags'
-        field:
-          element: 'multiselect'
-          label: 'Add Tags'
-          placeholder: 'Choose Tags'
-          alterable: true
-          options: 'http://mkdizajn.github.io/public/my-cats.jsonp'
+    - name: 'layout'
+      field:
+        element: 'select'
+        options: 
+        	- name: 'post'
+            value: 'post'
+          - name: 'page'
+            value: 'page'
+    - name: 'published'
+      field:
+        element: 'hidden'
+        value: 'true'
+    - name: 'title'
+      field:
+        element: 'text'
+        value: 'My new title'
+    - name: 'excerpt'
+      field:
+        element: 'textarea'
+        label: 'excerpt'
+        placeholder: 'enter your excerpt text. sean before post..'
+        value: 'My new teaser text'
+    - name: 'backgroundpic'
+      field:
+        element: 'text'
+        label: 'insert path to uploaded image'
+        placeholder: 'url path from public ..'
+        value: 'http://mkdizajn.github.io/public/ ..'
+    - name: 'tags'
+      field:
+        element: 'multiselect'
+        label: 'Add Tags'
+        placeholder: 'Choose Tags'
+        alterable: true
+        options: 'http://mkdizajn.github.io/public/my-cats.jsonp'
