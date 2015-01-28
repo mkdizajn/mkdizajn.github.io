@@ -52,7 +52,11 @@ html {
   font-size: 16px;
   line-height: 1.5;
 }
+<<<<<<< HEAD
 @media (min-width: 38rem) {
+=======
+@media (min-width: 38em) {
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
   html {
     font-size: 20px;
   }
@@ -65,17 +69,26 @@ body {
       -ms-text-size-adjust: 100%;
 }
 
+<<<<<<< HEAD
 .brand {
   display: block;
   /*border-radius: 250% 30%;-webkit-border-radius: 250% 30%;
   max-width: 50%;*/
   margin: auto auto;
 }
+=======
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
   color: #268bd2;
   text-decoration: none;
 }
+<<<<<<< HEAD
+=======
+a strong {
+  color: inherit;
+}
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
@@ -181,6 +194,11 @@ pre code {
   color: inherit;
   background-color: transparent;
 }
+<<<<<<< HEAD
+=======
+
+/* Pygments via Jekyll */
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
 .highlight {
   margin-bottom: 1rem;
   border-radius: 4px;
@@ -189,6 +207,31 @@ pre code {
   margin-bottom: 0;
 }
 
+<<<<<<< HEAD
+=======
+/* Gist via GitHub Pages */
+.gist .gist-file {
+  font-family: Menlo, Monaco, "Courier New", monospace !important;
+}
+.gist .markdown-body {
+  padding: 15px;
+}
+.gist pre {
+  padding: 0;
+  background-color: transparent;
+}
+.gist .gist-file .gist-data {
+  font-size: .8rem !important;
+  line-height: 1.4;
+}
+.gist code {
+  padding: 0;
+  color: inherit;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
 /* Quotes */
 blockquote {
   padding: .5rem 1rem;
@@ -199,7 +242,11 @@ blockquote {
 blockquote p:last-child {
   margin-bottom: 0;
 }
+<<<<<<< HEAD
 @media (min-width: 30rem) {
+=======
+@media (min-width: 30em) {
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
   blockquote {
     padding-right: 5rem;
     padding-left: 1.25rem;
@@ -208,9 +255,15 @@ blockquote p:last-child {
 
 img {
   display: block;
+<<<<<<< HEAD
   margin: 0 0 1rem;
   border-radius: 5px;
   max-width: 100%;
+=======
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
 }
 
 /* Tables */
@@ -388,7 +441,11 @@ a.pagination-item:hover {
   background-color: #f5f5f5;
 }
 
+<<<<<<< HEAD
 @media (min-width: 30rem) {
+=======
+@media (min-width: 30em) {
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
   .pagination {
     margin: 3rem 0;
   }

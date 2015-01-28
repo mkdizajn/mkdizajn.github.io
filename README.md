@@ -1,7 +1,13 @@
+<<<<<<< HEAD
 # mk blog
 
 this personal blog is based on Lanyon that is based od [Jekyll](http://jekyllrb.com) 
 <!--
+=======
+# Lanyon
+
+Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
 
 ![Lanyon](https://f.cloud.github.com/assets/98681/1825266/be03f014-71b0-11e3-9539-876e61530e24.png)
 ![Lanyon with open sidebar](https://f.cloud.github.com/assets/98681/1825267/be04a914-71b0-11e3-966f-8afe9894c729.png)
@@ -79,6 +85,43 @@ Reverse the page orientation with a single class.
 ```
 
 
+<<<<<<< HEAD
+=======
+### Sidebar overlay instead of push
+
+Make the sidebar overlap the viewport content with a single class:
+
+```html
+<body class="sidebar-overlay">
+  ...
+</body>
+```
+
+This will keep the content stationary and slide in the sidebar over the side content. It also adds a `box-shadow` based outline to the toggle for contrast against backgrounds, as well as a `box-shadow` on the sidebar for depth.
+
+It's also available for a reversed layout when you add both classes:
+
+```html
+<body class="layout-reverse sidebar-overlay">
+  ...
+</body>
+```
+
+### Sidebar open on page load
+
+Show an open sidebar on page load by modifying the `<input>` to add the `checked` boolean attribute:
+
+```html
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+```
+
+Using Liquid you can also conditionally show the sidebar open on a per-page basis. For example, here's how you could have it open on the homepage only:
+
+```html
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" {% if page.title =="Home" %}checked{% end %}>
+```
+
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
 ## Development
 
 Lanyon has two branches, but only one is used for active development.
@@ -99,4 +142,7 @@ Lanyon has two branches, but only one is used for active development.
 Open sourced under the [MIT license](LICENSE.md).
 
 <3
+<<<<<<< HEAD
 -->
+=======
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab

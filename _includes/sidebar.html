@@ -4,19 +4,31 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
+<<<<<<< HEAD
   <div class="sidebar-item"><!-- logo is inside description! -->
+=======
+  <div class="sidebar-item">
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
     <p>{{ site.description }}</p>
   </div>
 
   <nav class="sidebar-nav">
+<<<<<<< HEAD
     <a class="sidebar-nav-item" href="/">Home</a>
+=======
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
       `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
 
+<<<<<<< HEAD
     {% assign pages_list = site.pages %}
+=======
+    {% assign pages_list = site.pages | sort:"url" %}
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "page" %}
@@ -25,15 +37,24 @@
       {% endif %}
     {% endfor %}
 
+<<<<<<< HEAD
     <a class="sidebar-nav-item" target="_blank" href="/my-proudify/">My badges :)</a>
     <a class="sidebar-nav-item" target="_blank" href="/my-colors/">My colors_</a>
     <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}">This blog gh project</a> -->
+=======
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 
   <div class="sidebar-item">
     <p>
+<<<<<<< HEAD
       &copy; {{ site.time | date: '%Y' }} - made with ♥ by k.
+=======
+      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+>>>>>>> b8369a73ceae38c539b4f68c09af696f5584c9ab
     </p>
   </div>
 </div>
