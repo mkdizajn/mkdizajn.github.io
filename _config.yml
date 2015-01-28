@@ -3,7 +3,7 @@ pygments: true
 permalink: 'pretty'
 title: '• mk_blog •'
 tagline:
-description: '<a href=/><img class=brand src=/public/mk.png /></a>'
+description: '<a href=/><img class=brand src=/public/kreso_300x300.jpg /></a>'
 url: '/'
 baseurl: 'http://mkdizajn.github.io'
 author:
