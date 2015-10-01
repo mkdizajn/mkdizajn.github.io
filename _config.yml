@@ -9,7 +9,7 @@ title:               mk design
 tagline:             do some web stuff
 url:                 http://mkdizajn.github.io/
 paginate:            5
-baseurl:             mkdizajn.github.io
+baseurl:             "http://mkdizajn.github.io/"
 
 # Assets
 #
