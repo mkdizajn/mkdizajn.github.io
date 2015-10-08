@@ -6,19 +6,44 @@ pygments:         true
 permalink:        pretty
 
 # Setup
+<<<<<<< HEAD
 title:            my blog
 tagline:          'my mk blog'
 description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:              "https://mkdizajn.github.io/"
+=======
+title:               mk design
+tagline:             do some web stuff
+url:                 http://mkdizajn.github.io/
+paginate:            5
+baseurl:             "/"
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+>>>>>>> 355f3838fba8df8dedf0152f6049658132ffe5cc
 
 author:
+<<<<<<< HEAD
   name:           'Kresimir Pendic'
   url:            https://twitter.com/mkdizajn
 
 paginate:         5
+=======
+  name:              Kresimir Pendic
+  url:               https://twitter.com/mkdizajn
+  email:             k@mk-dizajn.com
+>>>>>>> 355f3838fba8df8dedf0152f6049658132ffe5cc
 
 # Custom vars
 version:          1.0.0
 
 github:
+<<<<<<< HEAD
   repo:           https://github.com/mkdizajn/mkdizajn.github.io
+=======
+  repo:              https://github.com/mkdizajn/mkdizajn.github.io
+>>>>>>> 355f3838fba8df8dedf0152f6049658132ffe5cc
