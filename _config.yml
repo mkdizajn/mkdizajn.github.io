@@ -7,7 +7,7 @@ permalink:        "pretty"
 
 # Setup
 tagline:          "mk(make) design web log"
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Kresimir Pendic Jekyll blog'
 url:              "https://mkdizajn.github.io/"
 title:               "mk#d"
 paginate:            5
