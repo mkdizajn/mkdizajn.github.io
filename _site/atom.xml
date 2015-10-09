@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>my blog</title>
+ <title>mk#d</title>
  <link href="https://mkdizajn.github.io//atom.xml" rel="self"/>
  <link href="https://mkdizajn.github.io//"/>
- <updated>2015-10-08T19:25:02+02:00</updated>
+ <updated>2015-10-09T10:07:16+02:00</updated>
  <id>https://mkdizajn.github.io/</id>
  <author>
    <name>Kresimir Pendic</name>
-   <email></email>
+   <email>k@mk-dizajn.com</email>
  </author>
 
  
