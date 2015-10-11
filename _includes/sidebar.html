@@ -4,12 +4,12 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
+  <div class="sidebar-item"><!-- logo is inside description! -->
     <p>{{ site.description }}</p>
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>
+    <a class="sidebar-nav-item" href="/">Home</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -25,14 +25,15 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+    <a class="sidebar-nav-item" target="_blank" href="/my-proudify/">My badges :)</a>
+    <a class="sidebar-nav-item" target="_blank" href="/my-colors/">My colors_</a>
+    <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}">This blog gh project</a> -->
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 
   <div class="sidebar-item">
     <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+      &copy; {{ site.time | date: '%Y' }} - made with ♥ by k.
     </p>
   </div>
 </div>

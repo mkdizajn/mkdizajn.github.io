@@ -2,7 +2,17 @@
 layout: default
 ---
 
-<div class="page">
+{% if page.backgroundpic != "" %}
+  <style>
+    body{
+      background: url({{page.backgroundpic}}) 0 0 no-repeat;
+      background-size: cover;
+    }
+  </style>
+{% endif %}
+
+
+<div class="page" class="{{backgroundpic}}">
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
 </div>
