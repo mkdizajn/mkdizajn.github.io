@@ -4,8 +4,10 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This notes are scatered in some random order here, they are my own but you can use it if you find it helpfull. Code and snippets can help us to travel back in time :) This blog is based on * [Lanyon](http://lanyon.getpoole.com)
+  Hey there! This notes are scattered in some random order here, they are my own but you can use it if you find it helpful. Code and snippets can help us travel back in time :) 
 </p>
+
+_This blog is based on_[Lanyon](http://lanyon.getpoole.com)
 
 In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
