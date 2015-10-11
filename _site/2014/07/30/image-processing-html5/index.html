@@ -38,7 +38,7 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item"><!-- logo is inside description! -->
-    <p>blog by <a href='https://twitter.com/mkdizajn'>@mkdizajn</a></p>
+    <p>blog by <a target='_blank' href='https://twitter.com/mkdizajn'>@mkdizajn</a></p>
   </div>
 
   <nav class="sidebar-nav">
@@ -69,15 +69,15 @@
       
     
 
-    <a class="sidebar-nav-item" target="_blank" href="/my-proudify/">My badges :)</a>
-    <a class="sidebar-nav-item" target="_blank" href="/my-colors/">My colors_</a>
+    <a class="sidebar-nav-item" target="_blank" href="/my-proudify/">My badges</a>
+    <a class="sidebar-nav-item" target="_blank" href="/my-colors/">My colors lib</a>
     <!-- <a class="sidebar-nav-item" href="https://github.com/mkdizajn/mkdizajn.github.io">This blog gh project</a> -->
     <span class="sidebar-nav-item">Currently v1.0.0</span>
   </nav>
 
   <div class="sidebar-item">
     <p>
-      &copy; 2015 - made with ♥ by k.
+    &copy; 2015 - made with <span class="theme-base-08-text">♥</span> by k.
     </p>
   </div>
 </div>
@@ -105,49 +105,49 @@ HTML5 getImageData object to alter images in browser,, so many possibilities..
 
 <p><strong>Simple</strong> examples of using image filters ..</p>
 
-<div class="highlight"><pre><code class="language-js" data-lang="js">/**
- * Image filters
- * @type {Object}
- */
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="cm">/**</span>
+<span class="cm"> * Image filters</span>
+<span class="cm"> * @type {Object}</span>
+<span class="cm"> */</span>
 
 
-Filters = {};
-Filters.getPixels = function(img) {
-    var c = this.getCanvas(img.width, img.height);
-    var ctx = c.getContext('2d');
-    ctx.drawImage(img);
-    return ctx.getImageData(0, 0, c.width, c.height);
-};
+<span class="nx">Filters</span> <span class="o">=</span> <span class="p">{};</span>
+<span class="nx">Filters</span><span class="p">.</span><span class="nx">getPixels</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">img</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">c</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">getCanvas</span><span class="p">(</span><span class="nx">img</span><span class="p">.</span><span class="nx">width</span><span class="p">,</span> <span class="nx">img</span><span class="p">.</span><span class="nx">height</span><span class="p">);</span>
+    <span class="kd">var</span> <span class="nx">ctx</span> <span class="o">=</span> <span class="nx">c</span><span class="p">.</span><span class="nx">getContext</span><span class="p">(</span><span class="s1">&#39;2d&#39;</span><span class="p">);</span>
+    <span class="nx">ctx</span><span class="p">.</span><span class="nx">drawImage</span><span class="p">(</span><span class="nx">img</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">ctx</span><span class="p">.</span><span class="nx">getImageData</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="nx">c</span><span class="p">.</span><span class="nx">width</span><span class="p">,</span> <span class="nx">c</span><span class="p">.</span><span class="nx">height</span><span class="p">);</span>
+<span class="p">};</span>
 
-Filters.getCanvas = function(w, h) {
-    var c = document.createElement('canvas');
-    c.width = w;
-    c.height = h;
-    return c;
-};
+<span class="nx">Filters</span><span class="p">.</span><span class="nx">getCanvas</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">w</span><span class="p">,</span> <span class="nx">h</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">c</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">&#39;canvas&#39;</span><span class="p">);</span>
+    <span class="nx">c</span><span class="p">.</span><span class="nx">width</span> <span class="o">=</span> <span class="nx">w</span><span class="p">;</span>
+    <span class="nx">c</span><span class="p">.</span><span class="nx">height</span> <span class="o">=</span> <span class="nx">h</span><span class="p">;</span>
+    <span class="k">return</span> <span class="nx">c</span><span class="p">;</span>
+<span class="p">};</span>
 
-Filters.filterImage = function(filter, image, var_args) {
-    var args = [this.getPixels(image)];
-    for (var i = 2; i &lt; arguments.length; i++) {
-        args.push(arguments[i]);
-    }
-    return filter.apply(null, args);
-};
+<span class="nx">Filters</span><span class="p">.</span><span class="nx">filterImage</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">filter</span><span class="p">,</span> <span class="nx">image</span><span class="p">,</span> <span class="nx">var_args</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">args</span> <span class="o">=</span> <span class="p">[</span><span class="k">this</span><span class="p">.</span><span class="nx">getPixels</span><span class="p">(</span><span class="nx">image</span><span class="p">)];</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">arguments</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">args</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">arguments</span><span class="p">[</span><span class="nx">i</span><span class="p">]);</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="nx">filter</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="kc">null</span><span class="p">,</span> <span class="nx">args</span><span class="p">);</span>
+<span class="p">};</span>
 
 
-Filters.grayscale = function(pixels, args) {
-    var d = pixels.data;
-    for (var i = 0; i &lt; d.length; i += 4) {
-        var r = d[i];
-        var g = d[i + 1];
-        var b = d[i + 2];
-        // CIE luminance for the RGB
-        // The human eye is bad at seeing red and blue, so we de-emphasize them.
-        var v = 0.2126 * r + 0.7152 * g + 0.0722 * b;
-        d[i] = d[i + 1] = d[i + 2] = v
-    }
-    return pixels;
-};</code></pre></div>
+<span class="nx">Filters</span><span class="p">.</span><span class="nx">grayscale</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">pixels</span><span class="p">,</span> <span class="nx">args</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">d</span> <span class="o">=</span> <span class="nx">pixels</span><span class="p">.</span><span class="nx">data</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">d</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span> <span class="o">+=</span> <span class="mi">4</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">r</span> <span class="o">=</span> <span class="nx">d</span><span class="p">[</span><span class="nx">i</span><span class="p">];</span>
+        <span class="kd">var</span> <span class="nx">g</span> <span class="o">=</span> <span class="nx">d</span><span class="p">[</span><span class="nx">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">];</span>
+        <span class="kd">var</span> <span class="nx">b</span> <span class="o">=</span> <span class="nx">d</span><span class="p">[</span><span class="nx">i</span> <span class="o">+</span> <span class="mi">2</span><span class="p">];</span>
+        <span class="c1">// CIE luminance for the RGB</span>
+        <span class="c1">// The human eye is bad at seeing red and blue, so we de-emphasize them.</span>
+        <span class="kd">var</span> <span class="nx">v</span> <span class="o">=</span> <span class="mf">0.2126</span> <span class="o">*</span> <span class="nx">r</span> <span class="o">+</span> <span class="mf">0.7152</span> <span class="o">*</span> <span class="nx">g</span> <span class="o">+</span> <span class="mf">0.0722</span> <span class="o">*</span> <span class="nx">b</span><span class="p">;</span>
+        <span class="nx">d</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="o">=</span> <span class="nx">d</span><span class="p">[</span><span class="nx">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="nx">d</span><span class="p">[</span><span class="nx">i</span> <span class="o">+</span> <span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="nx">v</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="nx">pixels</span><span class="p">;</span>
+<span class="p">};</span></code></pre></div>
 
 <hr>
 

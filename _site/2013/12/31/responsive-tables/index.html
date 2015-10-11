@@ -38,7 +38,7 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item"><!-- logo is inside description! -->
-    <p>blog by <a href='https://twitter.com/mkdizajn'>@mkdizajn</a></p>
+    <p>blog by <a target='_blank' href='https://twitter.com/mkdizajn'>@mkdizajn</a></p>
   </div>
 
   <nav class="sidebar-nav">
@@ -69,15 +69,15 @@
       
     
 
-    <a class="sidebar-nav-item" target="_blank" href="/my-proudify/">My badges :)</a>
-    <a class="sidebar-nav-item" target="_blank" href="/my-colors/">My colors_</a>
+    <a class="sidebar-nav-item" target="_blank" href="/my-proudify/">My badges</a>
+    <a class="sidebar-nav-item" target="_blank" href="/my-colors/">My colors lib</a>
     <!-- <a class="sidebar-nav-item" href="https://github.com/mkdizajn/mkdizajn.github.io">This blog gh project</a> -->
     <span class="sidebar-nav-item">Currently v1.0.0</span>
   </nav>
 
   <div class="sidebar-item">
     <p>
-      &copy; 2015 - made with ♥ by k.
+    &copy; 2015 - made with <span class="theme-base-08-text">♥</span> by k.
     </p>
   </div>
 </div>
@@ -105,42 +105,42 @@
 
 <p>Try this classes and play with it little to get best results..</p>
 
-<div class="highlight"><pre><code class="language-css" data-lang="css">@media only screen and (max-width: 760px),
-  (min-device-width: 768px) and (max-device-width: 1024px)  {
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="k">@media</span> <span class="nt">only</span> <span class="nt">screen</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-width</span><span class="o">:</span> <span class="nt">760px</span><span class="o">),</span>
+  <span class="o">(</span><span class="nt">min-device-width</span><span class="o">:</span> <span class="nt">768px</span><span class="o">)</span> <span class="nt">and</span> <span class="o">(</span><span class="nt">max-device-width</span><span class="o">:</span> <span class="nt">1024px</span><span class="o">)</span>  <span class="p">{</span>
   
-    /* Force table to not be like tables anymore */
-    table, thead, tbody, th, td, tr { 
-      display: block; 
-    }
+    <span class="c">/* Force table to not be like tables anymore */</span>
+    <span class="nt">table</span><span class="o">,</span> <span class="nt">thead</span><span class="o">,</span> <span class="nt">tbody</span><span class="o">,</span> <span class="nt">th</span><span class="o">,</span> <span class="nt">td</span><span class="o">,</span> <span class="nt">tr</span> <span class="p">{</span> 
+      <span class="k">display</span><span class="o">:</span> <span class="k">block</span><span class="p">;</span> 
+    <span class="p">}</span>
     
-    /* Hide table headers (but not display: none;, for accessibility) */
-    thead tr { 
-      position: absolute;
-      top: -9999px;
-      left: -9999px;
-    }
+    <span class="c">/* Hide table headers (but not display: none;, for accessibility) */</span>
+    <span class="nt">thead</span> <span class="nt">tr</span> <span class="p">{</span> 
+      <span class="k">position</span><span class="o">:</span> <span class="k">absolute</span><span class="p">;</span>
+      <span class="k">top</span><span class="o">:</span> <span class="m">-9999px</span><span class="p">;</span>
+      <span class="k">left</span><span class="o">:</span> <span class="m">-9999px</span><span class="p">;</span>
+    <span class="p">}</span>
     
-    tr { border: 1px solid #ccc; }
+    <span class="nt">tr</span> <span class="p">{</span> <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#ccc</span><span class="p">;</span> <span class="p">}</span>
     
-    td { 
-      /* Behave  like a &quot;row&quot; */
-      border: none;
-      border-bottom: 1px solid #eee; 
-      position: relative;
-      padding-left: 50%; 
-    }
+    <span class="nt">td</span> <span class="p">{</span> 
+      <span class="c">/* Behave  like a &quot;row&quot; */</span>
+      <span class="k">border</span><span class="o">:</span> <span class="k">none</span><span class="p">;</span>
+      <span class="k">border-bottom</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#eee</span><span class="p">;</span> 
+      <span class="k">position</span><span class="o">:</span> <span class="k">relative</span><span class="p">;</span>
+      <span class="k">padding-left</span><span class="o">:</span> <span class="m">50%</span><span class="p">;</span> 
+    <span class="p">}</span>
     
-    td:before { 
-      /* Now like a table header */
-      position: absolute;
-      /* Top/left values mimic padding */
-      top: 6px;
-      left: 6px;
-      width: 45%; 
-      padding-right: 10px; 
-      /*white-space: nowrap;*/
-    }
-  }</code></pre></div>
+    <span class="nt">td</span><span class="nd">:before</span> <span class="p">{</span> 
+      <span class="c">/* Now like a table header */</span>
+      <span class="k">position</span><span class="o">:</span> <span class="k">absolute</span><span class="p">;</span>
+      <span class="c">/* Top/left values mimic padding */</span>
+      <span class="k">top</span><span class="o">:</span> <span class="m">6px</span><span class="p">;</span>
+      <span class="k">left</span><span class="o">:</span> <span class="m">6px</span><span class="p">;</span>
+      <span class="k">width</span><span class="o">:</span> <span class="m">45%</span><span class="p">;</span> 
+      <span class="k">padding-right</span><span class="o">:</span> <span class="m">10px</span><span class="p">;</span> 
+      <span class="c">/*white-space: nowrap;*/</span>
+    <span class="p">}</span>
+  <span class="p">}</span></code></pre></div>
 
 <hr>
 

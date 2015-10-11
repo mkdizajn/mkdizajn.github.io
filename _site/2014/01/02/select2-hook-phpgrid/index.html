@@ -38,7 +38,7 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item"><!-- logo is inside description! -->
-    <p>blog by <a href='https://twitter.com/mkdizajn'>@mkdizajn</a></p>
+    <p>blog by <a target='_blank' href='https://twitter.com/mkdizajn'>@mkdizajn</a></p>
   </div>
 
   <nav class="sidebar-nav">
@@ -69,15 +69,15 @@
       
     
 
-    <a class="sidebar-nav-item" target="_blank" href="/my-proudify/">My badges :)</a>
-    <a class="sidebar-nav-item" target="_blank" href="/my-colors/">My colors_</a>
+    <a class="sidebar-nav-item" target="_blank" href="/my-proudify/">My badges</a>
+    <a class="sidebar-nav-item" target="_blank" href="/my-colors/">My colors lib</a>
     <!-- <a class="sidebar-nav-item" href="https://github.com/mkdizajn/mkdizajn.github.io">This blog gh project</a> -->
     <span class="sidebar-nav-item">Currently v1.0.0</span>
   </nav>
 
   <div class="sidebar-item">
     <p>
-      &copy; 2015 - made with ♥ by k.
+    &copy; 2015 - made with <span class="theme-base-08-text">♥</span> by k.
     </p>
   </div>
 </div>
@@ -105,63 +105,63 @@
 
 <h3>Select2 hook on phpGrid</h3>
 
-<div class="highlight"><pre><code class="language-js" data-lang="js">$('.FormElement.select2').select2({
-    width: '99%',
-    separator: ';',
-    placeholder: &quot;-- Select --&quot;,
-    minimumInputLength: 1,
-    allowClear: true,
-    dropdownCssClass: &quot;malaslova&quot;,
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.FormElement.select2&#39;</span><span class="p">).</span><span class="nx">select2</span><span class="p">({</span>
+    <span class="nx">width</span><span class="o">:</span> <span class="s1">&#39;99%&#39;</span><span class="p">,</span>
+    <span class="nx">separator</span><span class="o">:</span> <span class="s1">&#39;;&#39;</span><span class="p">,</span>
+    <span class="nx">placeholder</span><span class="o">:</span> <span class="s2">&quot;-- Select --&quot;</span><span class="p">,</span>
+    <span class="nx">minimumInputLength</span><span class="o">:</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="nx">allowClear</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+    <span class="nx">dropdownCssClass</span><span class="o">:</span> <span class="s2">&quot;malaslova&quot;</span><span class="p">,</span>
 
-    initSelection: function(element, callback) {
-        var res = &quot;&quot;;
-        var tmp = &quot;&quot;;
+    <span class="nx">initSelection</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">element</span><span class="p">,</span> <span class="nx">callback</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">res</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
+        <span class="kd">var</span> <span class="nx">tmp</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span><span class="p">;</span>
 
-        if (element.attr('temp') == undefined) { 
-            tmp = element.val().split(':')[0].trim();
-            element.attr('temp', tmp); 
-        }
+        <span class="k">if</span> <span class="p">(</span><span class="nx">element</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;temp&#39;</span><span class="p">)</span> <span class="o">==</span> <span class="kc">undefined</span><span class="p">)</span> <span class="p">{</span> 
+            <span class="nx">tmp</span> <span class="o">=</span> <span class="nx">element</span><span class="p">.</span><span class="nx">val</span><span class="p">().</span><span class="nx">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">].</span><span class="nx">trim</span><span class="p">();</span>
+            <span class="nx">element</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;temp&#39;</span><span class="p">,</span> <span class="nx">tmp</span><span class="p">);</span> 
+        <span class="p">}</span>
 
-        tmp = element.attr('temp');
+        <span class="nx">tmp</span> <span class="o">=</span> <span class="nx">element</span><span class="p">.</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;temp&#39;</span><span class="p">);</span>
 
-        res = {
-            id: tmp,
-            text: element.val()
-        };
-        callback(res);
-    },
+        <span class="nx">res</span> <span class="o">=</span> <span class="p">{</span>
+            <span class="nx">id</span><span class="o">:</span> <span class="nx">tmp</span><span class="p">,</span>
+            <span class="nx">text</span><span class="o">:</span> <span class="nx">element</span><span class="p">.</span><span class="nx">val</span><span class="p">()</span>
+        <span class="p">};</span>
+        <span class="nx">callback</span><span class="p">(</span><span class="nx">res</span><span class="p">);</span>
+    <span class="p">},</span>
 
-    ajax: {
-        url: &quot;/main/ajax/lookup_select2.php&quot;,
-        dataType: 'json',
-        quietMillis: 750,
-        data: function(term) {
-            return {
-                lookup_table: $(this).attr('rel'),
-                lookup_key: $(this).attr('lookup_key'), 
-                id_table_main: $('.selected_tab_parent').attr('rel'),
-                fkid: $('.selected_tab_parent').attr('node_id'),
-                q: term,
-                mod: window.modtype
-            };
-        },
-        results: function(data) {
-            var results = [];
-            var id1 = data.id;
-            var name = data.text;
-            $.each(data.data, function(index, item) {
-                results.push({
-                    id: item[id1],
-                    text: item[name].trim() + ' : ' + item[id1]
-                });
-            });
-            return {
-                results: results
-            };
-        }
-    },
+    <span class="nx">ajax</span><span class="o">:</span> <span class="p">{</span>
+        <span class="nx">url</span><span class="o">:</span> <span class="s2">&quot;/main/ajax/lookup_select2.php&quot;</span><span class="p">,</span>
+        <span class="nx">dataType</span><span class="o">:</span> <span class="s1">&#39;json&#39;</span><span class="p">,</span>
+        <span class="nx">quietMillis</span><span class="o">:</span> <span class="mi">750</span><span class="p">,</span>
+        <span class="nx">data</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">term</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="p">{</span>
+                <span class="nx">lookup_table</span><span class="o">:</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;rel&#39;</span><span class="p">),</span>
+                <span class="nx">lookup_key</span><span class="o">:</span> <span class="nx">$</span><span class="p">(</span><span class="k">this</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;lookup_key&#39;</span><span class="p">),</span> 
+                <span class="nx">id_table_main</span><span class="o">:</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.selected_tab_parent&#39;</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;rel&#39;</span><span class="p">),</span>
+                <span class="nx">fkid</span><span class="o">:</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.selected_tab_parent&#39;</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">&#39;node_id&#39;</span><span class="p">),</span>
+                <span class="nx">q</span><span class="o">:</span> <span class="nx">term</span><span class="p">,</span>
+                <span class="nx">mod</span><span class="o">:</span> <span class="nb">window</span><span class="p">.</span><span class="nx">modtype</span>
+            <span class="p">};</span>
+        <span class="p">},</span>
+        <span class="nx">results</span><span class="o">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kd">var</span> <span class="nx">results</span> <span class="o">=</span> <span class="p">[];</span>
+            <span class="kd">var</span> <span class="nx">id1</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nx">id</span><span class="p">;</span>
+            <span class="kd">var</span> <span class="nx">name</span> <span class="o">=</span> <span class="nx">data</span><span class="p">.</span><span class="nx">text</span><span class="p">;</span>
+            <span class="nx">$</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">data</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">index</span><span class="p">,</span> <span class="nx">item</span><span class="p">)</span> <span class="p">{</span>
+                <span class="nx">results</span><span class="p">.</span><span class="nx">push</span><span class="p">({</span>
+                    <span class="nx">id</span><span class="o">:</span> <span class="nx">item</span><span class="p">[</span><span class="nx">id1</span><span class="p">],</span>
+                    <span class="nx">text</span><span class="o">:</span> <span class="nx">item</span><span class="p">[</span><span class="nx">name</span><span class="p">].</span><span class="nx">trim</span><span class="p">()</span> <span class="o">+</span> <span class="s1">&#39; : &#39;</span> <span class="o">+</span> <span class="nx">item</span><span class="p">[</span><span class="nx">id1</span><span class="p">]</span>
+                <span class="p">});</span>
+            <span class="p">});</span>
+            <span class="k">return</span> <span class="p">{</span>
+                <span class="nx">results</span><span class="o">:</span> <span class="nx">results</span>
+            <span class="p">};</span>
+        <span class="p">}</span>
+    <span class="p">},</span>
 
-});</code></pre></div>
+<span class="p">});</span></code></pre></div>
 
 <p>phpGrid has builtin form that have basic lookup feature, and in this gist I&#39;m showing couple of methods that I do on aftershowform event.</p>
 
