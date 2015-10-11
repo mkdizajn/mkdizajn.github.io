@@ -1,12 +1,12 @@
 ---
 published: true
 layout: post
-excerpt: My new teaser text
+excerpt: "<div class=message> HTML5 getImageData object to alter images in browser,, so many possibilities.. </div>"
 backgroundpic: ""
 tags: 
   - javascript
   - html5
-title: My new title
+title: Image processing html5
 ---
 
 
