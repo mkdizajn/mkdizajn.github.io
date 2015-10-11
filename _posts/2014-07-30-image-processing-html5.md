@@ -1,7 +1,14 @@
 ---
 published: true
 layout: post
+excerpt: My new teaser text
+backgroundpic: ""
+tags: 
+  - javascript
+  - html5
+title: My new title
 ---
+
 
 <div class=message>
 HTML5 getImageData object to alter images in browser,, so many possibilities..
