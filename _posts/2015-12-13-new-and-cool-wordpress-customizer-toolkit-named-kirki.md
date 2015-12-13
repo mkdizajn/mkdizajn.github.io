@@ -1,14 +1,14 @@
 ---
 published: true
 layout: post
-excerpt: 
-  - object Object
+excerpt: object Object
 backgroundpic: ""
 tags: 
   - php
   - wordpress
 title: New and cool Wordpress customizer toolkit named Kirki
 ---
+
 
 
 ## This weekend I played a little
@@ -19,6 +19,7 @@ All documentation is not available yet but as my impression is guys are doing on
 I simply inserted the reference to kirki.php file and added my own fields definition file like this
 
 {% highlight php %}
+<?php
 // include kirki toolkit
 include_once( dirname( __FILE__ ) . '/kirki/kirki.php' );
 // add themes customizer options
