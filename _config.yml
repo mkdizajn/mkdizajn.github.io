@@ -10,7 +10,7 @@ tagline:          " (make) design"
 description:      "blog by <a target='_blank' href='https://twitter.com/mkdizajn'>@mkdizajn</a>"
 url:              "https://mkdizajn.github.io/"
 title:               "mk"
-paginate:            3
+paginate:            5
 baseurl:             "/"
 
 # Assets
