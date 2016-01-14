@@ -18,5 +18,5 @@ This is my first attempt with working with fonts, and I'm just learning the proc
 
 Hope that I would be more better and faster in the future for sure :)
 
-<iframe src="http://bl.ocks.org/mkdizajn/raw/8f878e78184158a25c70/" frameBorder="0" width="100%" height="800" />
+<iframe src="http://bl.ocks.org/mkdizajn/raw/8f878e78184158a25c70/" frameBorder="0" width="100%" height="800"></iframe>
 
