@@ -1,13 +1,14 @@
 ---
 published: true
 layout: post
-excerpt: object Object
+excerpt: New cool developement wordpress customizer toolkit
 backgroundpic: ""
 tags: 
   - php
   - wordpress
 title: New and cool Wordpress customizer toolkit named Kirki
 ---
+
 
 
 
