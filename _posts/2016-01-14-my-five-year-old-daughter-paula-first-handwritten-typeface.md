@@ -2,13 +2,14 @@
 published: true
 layout: post
 excerpt: "My first custom font face, out of my daughters drawings :)"
-backgroundpic: "http://i.imgur.com/uR4VYCM.png"
+backgroundpic: "http://i.imgur.com/jj7GeuG.png"
 tags: 
   - "font-face"
   - "custom-font"
   - "handwritten-font"
 title: "My five year old daughter Paula, first handwritten typeface"
 ---
+
 
 
 
