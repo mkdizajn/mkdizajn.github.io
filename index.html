@@ -5,11 +5,12 @@ published: true
 ---
 
 
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
   {% if page.backgroundpic != "" %}
-    <img style="margin: 0 auto 15px;" src="{{page.backgroundpic}}" />
+    <img style="margin: 0 auto 15px;" src="{{post.backgroundpic}}" />
   {% endif %}
 
     <h1 class="post-title">
