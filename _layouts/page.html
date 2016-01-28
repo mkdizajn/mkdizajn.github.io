@@ -1,18 +1,14 @@
 ---
 layout: default
+published: true
 ---
 
-{% if page.backgroundpic != "" %}
-  <style>
-    body{
-      background: url({{page.backgroundpic}}) 0 0 fixed;
-      background-size: cover;
-    }
-  </style>
-{% endif %}
-
-
 <div class="page" class="{{backgroundpic}}">
+
+    {% if page.backgroundpic != "" %}
+    <img style="margin: 0 auto 15px;" src="{{page.backgroundpic}}" />
+  {% endif %}
+
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
 </div>
