@@ -5,10 +5,11 @@ published: true
 
 
 
-<div class="page" class="{{backgroundpic}}">
 
-    {% if page.backgroundpic != "" %}
-    <img class="featuredpic" src="{{page.backgroundpic}}">
+<div class="page">
+
+  {% if page.backgroundpic != "" %}
+    <img class="featimg" src="{{page.backgroundpic}}">
   {% endif %}
 
   <h1 class="page-title">{{ page.title }}</h1>
