@@ -34,7 +34,7 @@ github:
 prose:
   media: 'media'
   #rooturl: '_posts'
-  siteurl: 'http://mk-dizajn-it.hr/'
+  siteurl: 'https://mk-dizajn-it.hr/'
   metadata:
     _posts:
       - name: 'layout'
