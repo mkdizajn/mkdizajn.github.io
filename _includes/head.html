@@ -33,7 +33,7 @@
   
     ga('create', 'UA-73206638-1', 'auto');
     ga('send', 'pageview');
-  
+    /* http => https redirect */
+    (location.protocol == "http:") ? location.protocol = 'https:' : '';
   </script>
 </head>
-
