@@ -530,3 +530,17 @@ a.pagination-item:hover {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+
+/* kpendic custom css */
+
+.featuredpic{
+  margin:-3em auto 15px;
+}
+
+
+
+
+
+
+/* longtail for prose editor's no footer padding-bottom :( */
