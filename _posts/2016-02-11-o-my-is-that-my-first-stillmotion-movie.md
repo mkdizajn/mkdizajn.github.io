@@ -20,6 +20,6 @@ The end result was a bunch of pictures, and processed in Gimp to make the gif ou
 
 Here you go :)
 
-<iframe src="//i.imgur.com/Du411rr.gif" frameBorder="0" width="100%" height="800"></iframe>
+<blockquote class="imgur-embed-pub" lang="en" data-id="Du411rr"><a href="//imgur.com/Du411rr">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 cheers
