@@ -20,6 +20,6 @@ The end result was a bunch of pictures, and processed in Gimp to make the gif ou
 
 Here you go :)
 
-<iframe src="//i.imgur.com/Du411rr.gifv" frameBorder="0" width="100%" height="800"></iframe>
+<iframe src="//i.imgur.com/Du411rr.gif" frameBorder="0" width="100%" height="800"></iframe>
 
 cheers
