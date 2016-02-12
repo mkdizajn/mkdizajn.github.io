@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-excerpt: "class=message&gt; HTML5 getImageData object to alter images in browser,, so many possibilities.. &lt;&#x2F;div&gt;"
+excerpt: HTML5 getImageData object to alter images in browser
 backgroundpic: ""
 tags: 
   - javascript
