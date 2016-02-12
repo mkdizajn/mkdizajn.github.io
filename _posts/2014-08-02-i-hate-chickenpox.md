@@ -9,10 +9,8 @@ tags:
   - chicken pox
 ---
 
-
-
-<div class=message>
-My older daughter Paula got chickenpox the other day,, what a nasty disease yikes.. 
+<div class="message">
+Our older daughter Paula got chickenpox the other day,, what a nasty disease yikes.. 
 </div>
 
 ![eye.jpg](/media/eye.jpg)
