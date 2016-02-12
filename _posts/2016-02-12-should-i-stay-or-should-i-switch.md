@@ -1,3 +1,16 @@
+---
+published: true
+layout: post
+excerpt: "Gmail is old but and oldies can be fast also :)"
+backgroundpic: "/media/Inbox-vs.-Gmail-5.0.jpg"
+tags: 
+  - "google-inbox"
+  - "google-gmail"
+  - "gmail-vs-inbox"
+  - "inbox-vs-gmail"
+title: "Should I stay or should I switch?"
+---
+
 ## Should I stay or should I switch? whitch is whitch you askx :)
 
 It's been awhile since Gmail launched Inbox, and I haven't really gotten time to test, from performance stand point, so today I woke up with simple idea how can I know quickly, for my environment, what would perform better (Gmail or Inbox). 
