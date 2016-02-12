@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: "I hate chickenpox :|"
+title: "That chickenpox :|"
 backgroundpic: ""
 excerpt: "You hate how chickenpox manifest, especially when your kid have it and it's spread :("
 tags: 
