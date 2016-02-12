@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-excerpt: "Gmail is old but and oldies can be fast also :)"
+excerpt: "Gmail is old & Inbox is new, faster is one I get used to :) la la la"
 backgroundpic: "/media/Inbox-vs.-Gmail-5.0.jpg"
 tags: 
   - "google-inbox"
