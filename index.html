@@ -8,10 +8,11 @@ published: true
 
 
 
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-  {% if page.backgroundpic != "" %}
+  {% if post.backgroundpic != "" %}
     <a href="{{ post.url }}">
       <img class="featimg" src="{{post.backgroundpic}}"></a>
   {% endif %}
