@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-excerpt: "<div class=message> HTML5 getImageData object to alter images in browser,, so many possibilities.. </div>"
+excerpt: "class=message&gt; HTML5 getImageData object to alter images in browser,, so many possibilities.. &lt;&#x2F;div&gt;"
 backgroundpic: ""
 tags: 
   - javascript
@@ -9,8 +9,7 @@ tags:
 title: Image processing html5
 ---
 
-
-<div class=message>
+<div class="message">
 HTML5 getImageData object to alter images in browser,, so many possibilities..
 </div>
 
