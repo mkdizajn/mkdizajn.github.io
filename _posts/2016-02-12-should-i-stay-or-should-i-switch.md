@@ -23,6 +23,8 @@ The idea is simple. I will try to open one page (only startpage) of each site, a
 
 I did recording of the above process by monitoring the chrome's built in Task manager, this is the result, see for your self :)
 
-<iframe src="https://drive.google.com/file/d/1d68izU4uaj5NXbWRMk2tt2aDY5TIa42ZCw/preview" width="640" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1d68izU4uaj5NXbWRMk2tt2aDY5TIa42ZCw/preview" width="640" height="350"></iframe>
 
 No problem, Gmail it is, for now, your turn Google :)
+
+
