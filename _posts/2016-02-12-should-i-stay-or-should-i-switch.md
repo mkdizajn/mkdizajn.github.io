@@ -25,6 +25,22 @@ I did recording of the above process by monitoring the chrome's built in Task ma
 
 <iframe src="https://drive.google.com/file/d/1d68izU4uaj5NXbWRMk2tt2aDY5TIa42ZCw/preview" width="640" height="350"></iframe>
 
-No problem, Gmail it is, for now, your turn Google :)
+The process steps are (on both pages I use hangout cause it's great):
+
+- I start first by having the Google homepage opened
+- then I open Inbox page (wait there until CPU rests: ~ 25sec)
+- then I reset the tab by going to Google homepage again
+- then I go to Gmail url, and see how long that takes (~12sec)
+
+### Summary:
+
+- Inbox: ~380MB, ~25sec
+- Gmail: ~260MB, ~12sec
+
+No problem, Gmail it is huraaay, for now, your turn Google :) 
+
+I like MD but I will not be a slave of UX :)
+
+cheers k
 
 
