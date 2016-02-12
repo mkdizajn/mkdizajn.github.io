@@ -3,11 +3,12 @@ published: true
 layout: post
 title: "I hate chickenpox :|"
 backgroundpic: ""
-excerpt: "you hate how chicken pox look like when your kid have it,,"
+excerpt: "You hate how chickenpox manifest, especially when your kid have it and it's spread :("
 tags: 
   - disease
   - chicken pox
 ---
+
 
 
 <div class=message>
