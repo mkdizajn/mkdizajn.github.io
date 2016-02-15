@@ -34,7 +34,7 @@
   ga('create', 'UA-42899405-1', 'auto');
   ga('send', 'pageview');
   
-  (location.protocol == "http:") ? location.protocol = 'https:' : '';
+  (location.protocol == "http:") ? location.href = location.href.replace("http://", "https://") : '';
   
   </script>
 </head>
