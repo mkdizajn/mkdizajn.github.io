@@ -8,7 +8,7 @@ permalink:        "pretty"
 # Setup
 tagline:          " (make) design"
 description:      "blog by <a target='_blank' href='https://twitter.com/mkdizajn'>@mkdizajn</a>"
-url:              "https://mk-dizajn-it.hr/"
+url:              "https://mk-dizajn.hr/"
 title:               "mk"
 paginate:            10
 baseurl:             "/"
@@ -34,7 +34,7 @@ github:
 prose:
   media: 'media'
   #rooturl: '_posts'
-  siteurl: 'https://mk-dizajn-it.hr/'
+  siteurl: 'https://mk-dizajn.hr/'
   metadata:
     _posts:
       - name: 'layout'
