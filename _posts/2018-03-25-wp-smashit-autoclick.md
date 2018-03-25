@@ -11,3 +11,5 @@ If you have big archive like me, and don't like the fact to click like 63 time o
 setInterval(function(){ if( $('.wp-smush-all.wp-smush-button.wp-smush-started').not('[disabled]').length ) $('.wp-smush-all.wp-smush-button.wp-smush-started').click() }, 15000)
 
 {% endhighlight %}
+
+as usuall run it in `console` on plugin admin page like I did and do not close tab when you run it :)
