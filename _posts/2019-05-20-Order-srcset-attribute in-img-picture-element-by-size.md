@@ -2,7 +2,6 @@
 published: true
 backgroundpic: /media/Untitled_.jpg
 ---
-![Untitled_.jpg](/media/Untitled_.jpg)
 ## Order srcset attribute in picture elements
 
 
