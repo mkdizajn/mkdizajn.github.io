@@ -31,13 +31,12 @@ github:
   repo:           https://github.com/mkdizajn/mkdizajn.github.io
   repo:              https://github.com/mkdizajn/mkdizajn.github.io
 
-custom:
-  imgsrc: 'https://raw.githubusercontent.com/mkdizajn/mkdizajn.github.io/master/'
 
 prose:
   media: 'media'
   #rooturl: '_posts'
   siteurl: 'https://mk-dizajn.hr/'
+  imgsrc: 'https://raw.githubusercontent.com/mkdizajn/mkdizajn.github.io/master/'
   metadata:
     _posts:
       - name: 'layout'
