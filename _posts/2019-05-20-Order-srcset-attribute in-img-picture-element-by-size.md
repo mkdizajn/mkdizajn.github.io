@@ -3,7 +3,7 @@ published: true
 ---
 ## Order srcset attribute in picture elements
 
-![HTML-attribute.jpg]({{site.baseurl}}/_posts/HTML-attribute.jpg)
+![HTML-attribute.jpg]({{custom.imgsrc}}/_posts/HTML-attribute.jpg)
 
 
 If your favorite CMS (WordPress in my case) is outputing `srcset` attribute in strange order (not by viewport site as I'd expected it to be from smallest to biggest) then you can use this peace of javascript to find the biggest image if you need it!
