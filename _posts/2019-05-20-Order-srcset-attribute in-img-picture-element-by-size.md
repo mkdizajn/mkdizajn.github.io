@@ -23,7 +23,7 @@ $.each( $('img'), function(){
 
 In the code above I'm setting the `href` attr to the biggest image from srcset that this peace of code does :)
 
-![]({{site.baseurl}}/https://i.imgur.com/mxOGfWG.gif)
+<img src="https://i.imgur.com/mxOGfWG.gif" >
 
 Hope someone ever find it usefull like I did today :)
 
