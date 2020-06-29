@@ -1,6 +1,10 @@
 ---
 published: true
 backgroundpic: /media/Untitled_.jpg
+tags:
+  - javascript regex
+  - wordpress srcset unordered
+  - sort srcset
 ---
 ## Order srcset attribute in picture elements
 
