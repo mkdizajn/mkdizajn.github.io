@@ -5,7 +5,7 @@ backgroundpic: /media/Untitled_.jpg
 ## Order srcset attribute in picture elements
 
 
-If your favorite CMS (WordPress in my case) is outputing `srcset` attribute in strange order (not by viewport site as I'd expected it to be from smallest to biggest) then you can use this peace of javascript to find the biggest image if you need it!
+If your favorite CMS (WordPress in my case) is outputing `srcset` attribute in strange order (not by viewport size as I'd expected it — from smallest to biggest) then you can use this peace of javascript to find the biggest image if you need it!
 
 ```javascript
 $.each( $('img'), function(){
@@ -22,6 +22,8 @@ $.each( $('img'), function(){
 ```
 
 In the code above I'm setting the `href` attr to the biggest image from srcset that this peace of code does :)
+
+![]({{site.baseurl}}/https://i.imgur.com/mxOGfWG.gif)
 
 Hope someone ever find it usefull like I did today :)
 
