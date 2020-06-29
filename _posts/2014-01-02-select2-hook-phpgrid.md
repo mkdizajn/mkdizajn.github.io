@@ -2,10 +2,10 @@
 layout: post
 title: Select2 hook to trigger phpgrid
 published: true
-tags: 
-  - first
-  - second
-  - mirko
+tags:
+  - selec2
+  - phpgrid
+  - javascript
 ---
 
 <div class="message">
