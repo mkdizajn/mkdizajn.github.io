@@ -2,6 +2,10 @@
 layout: post
 title: Responsive tables css
 published: true
+tags:
+  - css
+  - responsive tables
+  - css responsive tables
 ---
 
 <div class=message>
