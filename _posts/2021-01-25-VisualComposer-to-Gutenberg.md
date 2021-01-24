@@ -15,4 +15,4 @@ To go around that issue, we need to compare output of generated Gutenberg galler
 
 Short gif can be of help here, so give your eyes little info - if anyone stuck with other blocks of VC to Gutenberg convertion let me know in comments we could start some community backed project
 
-![ezgif.com-gif-maker (24).gif]({{site.baseurl}}/_posts/ezgif.com-gif-maker (24).gif)
+![ezgif.com-gif-maker (24).gif](/_posts/ezgif.com-gif-maker (24).gif)
