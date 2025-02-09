@@ -13,13 +13,13 @@ And what happens when you disable that plugin?
 
 Not much, very ugly scene,, EVERY post photo, title, text disapears, and you are left with only one shortcode like this!
 
-![]({{site.baseurl}}/https://i.imgur.com/V72sko7.png)
+![](https://i.imgur.com/V72sko7.png)
 
 So, again, that is not only case for [Visual Composer](https://visualcomposer.com/), that is the case for any other builder, including [DIVI](https://www.elegantthemes.com/gallery/divi/) builder or else.. 
 
 And,,, did you checked source of that page to see what it looks like for SEO - yoast generated automatically? 
 
-![]({{site.baseurl}}/https://i.imgur.com/fB5LMh1.png)
+![](https://i.imgur.com/fB5LMh1.png)
 
 don't you want to shot your self up because of that.. and you know what, I still remember that day when I discovered Visual builders.. I thought to my self - "I'M SMART-  I'LL DO THIS FOR EVER" :(
 
